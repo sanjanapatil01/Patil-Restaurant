@@ -1,0 +1,55 @@
+@media screen and (max-width: 1200px){
+  .hero-text{
+padding: 0 2%;
+    width: 100%;
+    
+    }
+    .row{
+      padding: 0 2%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1023px){
+.long-copy{
+  width:80% ;
+  margin-left: 10%;
+}
+body{
+  font-size:18px ;
+}
+section{
+  padding: 60pc 0;
+}
+.steps-box{
+  margin-top: 10px;
+  .steps-box:last-child{
+    margin-top: 10px;
+
+  }
+}
+}
+
+
+@media screen and (max-width: 767px){
+
+}
+
+
+@media screen and (max-width: 480px){
+section{
+  padding: 25px 0;
+  height: auto;
+  width: 100%;
+  
+}
+.contact-form{
+  width: 100%;
+}
+h1{
+  float: left;
+  font-size: 10px;
+}
+}
