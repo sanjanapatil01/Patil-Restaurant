@@ -446,8 +446,7 @@ footer p{
     font-size: 16px;
     overflow-x: hidden;
   }
-  
-  /* Header Section */
+
   header {
     height: 30vh;
     background-attachment: scroll; 
@@ -786,6 +785,9 @@ footer p{
   
   h2 {
     font-size: 130%;
+  }
+  #feature h2 {
+margin-top: 30px;
   }
   
   .meal-showcase li {
