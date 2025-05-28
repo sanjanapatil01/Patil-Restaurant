@@ -438,3 +438,387 @@ footer p{
 .in:hover{
   color: rgb(231, 16, 88);
 }
+
+@media only screen and (max-width: 767px) {
+  
+  
+  html, body {
+    font-size: 16px;
+    overflow-x: hidden;
+  }
+  
+  /* Header Section */
+  header {
+    height: 30vh;
+    background-attachment: scroll; 
+  }
+  
+  /* Navigation */
+  .main-nav {
+    display: none; 
+  }
+  
+  .logo {
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  
+
+  .hero-text {
+    position: absolute;
+    width: 90%;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    height: 200px;
+  }
+  
+  h1 {
+    font-size: 180%;
+    margin-bottom: 30px;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #333;
+  }
+  
+
+  
+  
+  .btn:link,
+  .btn:visited {
+    display: none;
+    margin-bottom: 15px;
+  
+ 
+    font-size: 90%;
+    text-align: center;
+    height: max-content;
+  }
+  
+  .btn-full:link,
+  .btn-full:visited {
+    margin-right: 0;
+    margin-bottom: 15px;
+    height: max-content;
+  }
+  
+
+  section {
+    padding: 50px 20px;
+  }
+  
+
+  h2 {
+    font-size: 150%;
+    margin-bottom: 25px;
+  }
+  
+  h2:after {
+    width: 80px;
+    margin-top: 20px;
+  }
+  
+  .long-copy {
+    width: 100%;
+    margin-left: 0;
+    font-size: 90%;
+    text-align: center;
+  }
+  
+  /* Feature Section */
+  .section-feature .box {
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .iconn {
+    font-size: 250%;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 120%;
+    margin-bottom: 20px;
+  }
+  
+  .box p {
+    font-size: 95%;
+    line-height: 150%;
+  }
+  
+
+  .section-meals {
+    padding: 0;
+  }
+  
+  .meal-showcase li {
+    width: 50%;
+    float: left;
+  }
+  
+  .meal-showcase img {
+    height: 200px;
+  }
+  
+ 
+  .section-step {
+    text-align: center;
+  }
+  
+  .steps-box {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .steps-box:first-child {
+    text-align: center;
+    padding-right: 0;
+    margin-top: 0;
+  }
+  
+  .steps-box:last-child {
+    padding-left: 0;
+    margin-top: 0;
+  }
+  
+  .app-screen {
+    width: 60%;
+    margin-bottom: 40px;
+  }
+  
+  .works-step {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  
+  .works-step div {
+    margin-right: 20px;
+    padding: 8px;
+    font-size: 120%;
+  }
+  
+  .btn-app-img {
+    height: 40px;
+    margin: 10px 5px;
+  }
+  
+  /* Cities Section */
+  .section-cities .box {
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .section-cities .box img {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  
+  .city-feature {
+    margin-bottom: 10px;
+    font-size: 90%;
+  }
+  
+  .icom-small {
+    margin-right: 8px;
+  }
+  
+
+  .section-testi {
+    height: auto;
+    padding: 60px 20px;
+    background-attachment: scroll;
+  }
+  
+  .section-testi .col {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  
+  blockquote {
+    padding: 5%;
+    font-size: 90%;
+  }
+  
+  blockquote:before {
+    font-size: 300%;
+    left: -5px;
+  }
+  
+  cite {
+    font-size: 85%;
+    margin-top: 30px;
+  }
+  
+  cite img {
+    height: 40px;
+  }
+  
+  
+  .section-plans .col {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .plan-box {
+    width: 90%;
+    margin: 0 auto 30px auto;
+  }
+  
+  .plan-price {
+    font-size: 250%;
+  }
+  
+  .plan-box li {
+    padding: 8px 0;
+    font-size: 90%;
+  }
+  
+
+  .contact-form {
+    width: 90%;
+  }
+  
+  .section-form .col {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .section-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type=text],
+  input[type=email],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+  }
+  
+  textarea {
+    height: 120px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    padding: 15px;
+    font-size: 110%;
+  }
+  
+
+  footer {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .footer-nav,
+  .social-links {
+    float: none;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-nav li,
+  .social-links li {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .social-links li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  footer p {
+    margin-top: 30px;
+    font-size: 80%;
+  }
+  
+
+  .row {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  
+  .col {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+  }
+  
+ 
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+  .hero-text {
+    max-width: 100%;
+  }
+  
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  
+  h1 {
+    font-size: 150%;
+  }
+  
+  h2 {
+    font-size: 130%;
+  }
+  
+  .meal-showcase li {
+    width: 100%; 
+  }
+  
+  .app-screen {
+    width: 80%;
+  }
+  
+  .plan-price {
+    font-size: 200%;
+  }
+  
+  .btn:link,
+  .btn:visited {
+    padding: 12px 20px;
+    font-size: 85%;
+  }
+  
+  section {
+    padding: 40px 15px;
+  }
+  
+  .row {
+    padding: 0 15px;
+  }
+}
+
+@media only screen and (min-width: 490px) and (max-width: 1024px) {
+  
+body{
+  display: none;
+}
+} 
+
